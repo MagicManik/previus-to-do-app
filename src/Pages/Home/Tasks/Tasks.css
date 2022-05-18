@@ -1,0 +1,9 @@
+.tasks-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    padding: 100px;
+    background-color: #f5f7ff;
+}

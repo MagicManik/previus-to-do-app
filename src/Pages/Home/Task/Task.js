@@ -9,8 +9,8 @@ const Task = ({ task }) => {
         <div className='task-body'>
             <h5>{name}</h5>
             <p>{description}</p>
-            <div>
-                <button><FontAwesomeIcon icon={faTrash} ></FontAwesomeIcon></button>
+            <div className='d-flex flex-row-reverse px-3'>
+                <button className='task-delete-btn'><FontAwesomeIcon icon={faTrash} ></FontAwesomeIcon></button>
             </div>
         </div>
     );

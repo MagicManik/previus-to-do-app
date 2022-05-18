@@ -10,7 +10,7 @@ const Tasks = () => {
 
     const handleTaskComplite = () => {
         setLineThrough(true);
-        return alert('Task complite')
+        return alert('Task complited')
     }
 
     return (

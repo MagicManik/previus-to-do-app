@@ -16,3 +16,8 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+
+.linethrough {
+    text-decoration: line-through;
+}
